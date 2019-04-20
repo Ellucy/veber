@@ -7,6 +7,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
+import 'typeface-roboto';
 
 function OnePage(props) {
   const { classes } = props;
@@ -20,8 +21,21 @@ function OnePage(props) {
         </div>
         <div className="Footer">
           <div className='ButtonBox'>
-            <div className='Button1'>button1</div>
-            <div className='Button2'>button2</div>
+            <div className='Column'>
+              <Button variant="contained" className='clickToCall'>
+                <Typography variant="subtitle1" gutterBottom>
+                  HELISTA
+            </Typography>
+              </Button>
+            </div>
+            <div className='Column'>
+              <Button variant="contained" className='clickToEmail'>
+                <Typography variant="subtitle1" gutterBottom>
+                  SAADA E-MAIL
+                </Typography>
+              </Button>
+            </div>
+
           </div>
         </div>
       </div>

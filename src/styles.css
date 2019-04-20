@@ -44,18 +44,32 @@ body {
 
 .ButtonBox{
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.Button1{
+.clickToCall{
   margin: 10px;
   width: 200px;
   height: 30px;
   background-color: aquamarine;
 }
 
-.Button2{
+.clickToEmail{
   margin: 10px;
   width: 200px;
   height: 30px;
   background-color: aquamarine;
+}
+
+.Column {
+  display: flex;
+  flex-direction: column;
+  /*flex-basis: 100%;*/
+  flex: 1;
+  align-items: center;
+}
+
+.MuiButton-root-1 {
+  color: rgb(239, 239, 239);
 }
