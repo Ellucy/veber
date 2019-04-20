@@ -1,0 +1,61 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.Main {
+  display: flex;
+  flex: 1;
+  background: url(/bg-min.jpg) no-repeat
+    center center fixed;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.Meow {
+  background: rgba(255, 255, 255, 0.8);
+  max-width: 320px;
+  padding: 16px;
+  border-radius: 16px;
+  font-size: 18px;
+  position: absolute;
+  top: 3%;
+  left: 3%;
+}
+
+.Footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  background: #181818;
+  color: white;
+}
+
+.ButtonBox{
+  display: flex;
+}
+
+.Button1{
+  margin: 10px;
+  width: 200px;
+  height: 30px;
+  background-color: aquamarine;
+}
+
+.Button2{
+  margin: 10px;
+  width: 200px;
+  height: 30px;
+  background-color: aquamarine;
+}
