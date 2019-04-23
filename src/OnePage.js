@@ -17,7 +17,10 @@ function OnePage(props) {
       <CssBaseline />
       <div className="App">
         <div className="Main">
-          <div className="Meow">Who Said Meow?</div>
+          <div className="Meow">
+          <img src={require('./veber.png')} />
+
+          </div>
         </div>
         <div className="Footer">
           <div className='ButtonBox'>
