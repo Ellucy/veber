@@ -21,19 +21,36 @@ function OnePage(props) {
         </div>
         <div className="Footer">
           <div className='ButtonBox'>
+
             <div className='Column'>
-              <Button variant="contained" className='clickToCall'>
-                <Typography variant="subtitle1" gutterBottom>
-                  HELISTA
-            </Typography>
-              </Button>
+
+
+              <a href="tel:+37258504843" className='clickToCall'>
+
+                <span className='actionButton'>
+                  <i class="material-icons md-dark">
+                    call
+                </i>
+
+                  <span className="text">+372 5850 4843</span>
+                </span>
+              </a>
+
             </div>
+
             <div className='Column'>
-              <Button variant="contained" className='clickToEmail'>
-                <Typography variant="subtitle1" gutterBottom>
-                  SAADA E-MAIL
-                </Typography>
-              </Button>
+
+              <a href="mailto:mets.eleri@gmail.com" className='clickToEmail'>
+
+                <span className='actionButton'>
+                  <i class="material-icons md-dark" >
+                    email
+              </i>
+
+                  <span className="text">SAADA E-MAIL</span>
+                </span>
+              </a>
+
             </div>
 
           </div>
