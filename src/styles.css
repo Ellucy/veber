@@ -42,7 +42,7 @@ body {
 .ButtonBox {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
 }
 
 .Button {
@@ -60,7 +60,7 @@ body {
   flex: 1;
   align-items: center;
   margin: 10px;
-  flex-wrap: wrap;
+  
 }
 
 .material-icons {
@@ -112,16 +112,6 @@ body {
   top: 10px;
   left: 0px;
   position: absolute;
-}
-
-.NewColumn {
-  display: flex;
-  flex-direction: column;
-  flex: 2;
-  align-items: center;
-  margin: 10px;
-  flex-wrap: wrap;
-  flex: 1 1 100%;
 }
 
 break {
