@@ -6,7 +6,6 @@ body {
 
 .App {
   font-family: sans-serif;
-  text-align: center;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -104,4 +103,9 @@ body {
 
 .MuiPaper-root-136 {
   background-color: black;
+}
+
+.Veber-logo {
+  height: 60vmin;
+  pointer-events: none;
 }

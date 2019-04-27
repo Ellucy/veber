@@ -8,17 +8,27 @@ import 'typeface-roboto';
 import Icon from '@material-ui/core/Icon';
 import Paper from '@material-ui/core/Paper';
 import './styles.css'
+import logo from './logo.svg';
+import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+const theme = createMuiTheme({
+  palette: {
+    primary: { main: '#00FF00' }, // Purple and green play nicely together.
+    secondary: { main: '#ffffff' }, // This is just green.A700 as hex.
+  },
+  typography: { useNextVariants: true },
+});
 
 function OnePage(props) {
   const { classes } = props;
 
   return (
+    <MuiThemeProvider theme={theme}>
     <React.Fragment>
       <CssBaseline />
       <div className="App">
         <div className="Main">
-
-          <img src={require('./veber.png')} className="Meow" />
+          <img src={logo} className="Veber-logo" alt="logo" />
+          {/* <img src={require('./veber.png')} className="Meow" /> */}
 
         </div>
         <div className="Footer">
@@ -42,24 +52,11 @@ function OnePage(props) {
             </div>
 
           </div>
-          {/* <br /> */}
-          <div className="RootGrid">
-            <Grid container spacing={24}>
-              <Grid item xs={6} alignContent="flex-start">
-                <Typography variant="caption" gutterBottom color="secondary">
-                  caption text
-                </Typography>
-              </Grid>
-              <Grid item xs={6}>
-                <Typography variant="caption" gutterBottom  color="secondary">
-                  caption text
-                </Typography>
-              </Grid>
-            </Grid>
-          </div>
+
         </div>
       </div>
     </React.Fragment>
+    </MuiThemeProvider>
   );
 }
 export default (OnePage);
