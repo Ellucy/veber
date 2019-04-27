@@ -120,3 +120,7 @@ break {
   height: 0px; 
   overflow: hidden;
 }
+
+span {
+  white-space: nowrap;
+}
