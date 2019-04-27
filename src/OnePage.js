@@ -59,20 +59,12 @@ function OnePage(props) {
             <div className='Column'>
 
             <span>Veber Ehitus OÜ</span>
-            <span>Uus-Kalamaja 5,</span>
-            <span>Tallinn 10415</span>
-            <span>Harjumaa</span>
-
-            </div>
-
-            <div className='Column'>
-
+            <span>Uus-Kalamaja 5, Tallinn, 10415 Harjumaa</span>
             <span>Reg. nr. 14460351</span>
             <span>KMKR: EE102110160</span>
-            <span>SEB Pank a/a:</span>
-            <span>EE851010220278730228</span>
+            <span>SEB Pank: EE851010220278730228</span>
 
-          </div>
+            </div>
           </div>
 
         </div>
