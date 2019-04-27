@@ -32,9 +32,9 @@ body {
 }
 
 .Footer {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   height: 150px;
   background: #181818;
   color: white;
@@ -46,16 +46,8 @@ body {
   flex-wrap: wrap;
 }
 
-.clickToCall {
-  width: 200px;
-  height: 30px;
-  background-color: #e0e0e0;
-  border-radius: 16px;
-  text-decoration: none
-}
-
-.clickToEmail {
-  width: 200px;
+.Button {
+  width: 180px;
   height: 30px;
   background-color: #e0e0e0;
   border-radius: 16px;
@@ -97,4 +89,19 @@ body {
 
 .material-icons.md-dark.md-inactive { 
   color: rgba(0, 0, 0, 0.26); 
+}
+
+.RootGrid {
+  flex-grow: 1,
+}
+
+.Paper {
+  padding: 2px;
+  text-align: left;
+  color: white;
+  background-color: none;
+}
+
+.MuiPaper-root-136 {
+  background-color: black;
 }
