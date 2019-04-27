@@ -27,7 +27,7 @@ function OnePage(props) {
             <div className='Column'>
 
 
-              <a href="tel:+37258504843" className='clickToCall'>
+              {/* <a href="tel:+37258504843" className='clickToCall'>
 
                 <span className='actionButton'>
                   <i class="material-icons md-dark">
@@ -36,13 +36,17 @@ function OnePage(props) {
 
                   <span className="text">+372 5850 4843</span>
                 </span>
-              </a>
+              </a> */}
 
+              <Button variant="contained" color="primary" href="tel:+37258504843" className='clickToCall'>
+                <Call className='leftIcon' />
+                +372 5850 4843
+              </Button>
             </div>
 
             <div className='Column'>
 
-              <a href="mailto:mets.eleri@gmail.com" className='clickToEmail'>
+              {/* <a href="mailto:mets.eleri@gmail.com" className='clickToEmail'>
 
                 <span className='actionButton'>
                   <i class="material-icons md-dark" >
@@ -51,7 +55,12 @@ function OnePage(props) {
 
                   <span className="text">SAADA E-MAIL</span>
                 </span>
-              </a>
+              </a> */}
+
+              <Button variant="contained" color="primary" href="mailto:mets.eleri@gmail.com" className='clickToEmail'>
+                <Email className='leftIcon' />
+                mets.eleri@gmail.com
+          </Button>
 
             </div>
 
