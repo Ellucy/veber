@@ -1,18 +1,15 @@
-import './styles.css'
 import React from 'react';
-import Typography from '@material-ui/core/Typography';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Button from '@material-ui/core/Button';
-import Grid from '@material-ui/core/Grid';
 import 'typeface-roboto';
 import Icon from '@material-ui/core/Icon';
-import Paper from '@material-ui/core/Paper';
 import './styles.css'
 import logo from './logo.svg';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+
 const theme = createMuiTheme({
   palette: {
-    primary: { main: '#00FF00' }, // Purple and green play nicely together.
+    primary: { main: '#007bff' }, // Purple and green play nicely together.
     secondary: { main: '#ffffff' }, // This is just green.A700 as hex.
   },
   typography: { useNextVariants: true },
@@ -38,7 +35,10 @@ function OnePage(props) {
 
               <Button variant="contained" color="primary" href="tel:+37258504843" className='Button'>
                 <Icon className='leftIcon'>call</Icon>
-                +372 5850 4843
+                <span style={{textTransform: 'lowercase'}}>
+                +372 5372 1200
+                </span>
+                
               </Button>
             </div>
 
@@ -46,11 +46,33 @@ function OnePage(props) {
 
               <Button variant="contained" color="primary" href="mailto:info@veber.ee" className='Button'>
                 <Icon className='leftIcon'>email</Icon>
+                <span style={{textTransform: 'lowercase'}}>
                 info@veber.ee
+                </span>
+                
             </Button>
 
             </div>
 
+            <break></break>
+
+            <div className='Column'>
+
+            <span>Veber Ehitus OÜ</span>
+            <span>Uus-Kalamaja 5,</span>
+            <span>Tallinn 10415</span>
+            <span>Harjumaa</span>
+
+            </div>
+
+            <div className='Column'>
+
+            <span>Reg. nr. 14460351</span>
+            <span>KMKR: EE102110160</span>
+            <span>SEB Pank a/a:</span>
+            <span>EE851010220278730228</span>
+
+          </div>
           </div>
 
         </div>

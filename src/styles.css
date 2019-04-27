@@ -31,10 +31,10 @@ body {
 }
 
 .Footer {
-  /* display: flex;
+  display: flex;
   align-items: center;
-  justify-content: center; */
-  height: 150px;
+  justify-content: center;
+  height: auto;
   background: #181818;
   color: white;
 }
@@ -50,7 +50,7 @@ body {
   height: 30px;
   background-color: #e0e0e0;
   border-radius: 16px;
-  text-decoration: none
+  text-decoration: none;
 }
 
 .Column {
@@ -60,6 +60,7 @@ body {
   flex: 1;
   align-items: center;
   margin: 10px;
+  flex-wrap: wrap;
 }
 
 .material-icons {
@@ -96,7 +97,7 @@ body {
 
 .Paper {
   padding: 2px;
-  text-align: left;
+  text-align: center;
   color: white;
   background-color: none;
 }
@@ -106,6 +107,26 @@ body {
 }
 
 .Veber-logo {
-  height: 60vmin;
+  height: 10vmin;
   pointer-events: none;
+  top: 10px;
+  left: 0px;
+  position: absolute;
+}
+
+.NewColumn {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  align-items: center;
+  margin: 10px;
+  flex-wrap: wrap;
+  flex: 1 1 100%;
+}
+
+break {
+  flex-basis: 100%;
+  width: 0px; 
+  height: 0px; 
+  overflow: hidden;
 }
