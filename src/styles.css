@@ -41,6 +41,7 @@ body {
   border-radius: 16px;
   text-decoration: none;
   margin: 5px;
+  justify-content: flex-start;
 }
 
 .Column {
@@ -93,4 +94,8 @@ break {
 
 .buttonText {
   padding-left: 14px;
+}
+
+span.MuiButton-label-2 {
+  justify-content: flex-start;
 }
