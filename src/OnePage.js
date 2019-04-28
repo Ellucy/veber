@@ -24,8 +24,8 @@ function OnePage() {
         <CssBaseline />
         <div className="App">
           <div className="Main">
+
             <img src={logo} className="Veber-logo" alt="logo" />
-            {/* <img src={require('./veber.png')} className="Meow" /> */}
 
           </div>
           <div className="Footer">

@@ -13,7 +13,7 @@ body {
 .Main {
   display: flex;
   flex: 1;
-  background: url(/bg-min.jpg) no-repeat
+  background: url(./bg-min.jpg) no-repeat
     center center fixed;
   background-size: cover;
   align-items: center;
