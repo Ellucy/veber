@@ -6,6 +6,7 @@ import Icon from '@material-ui/core/Icon';
 import './styles.css'
 import logo from './logo.svg';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import Typography from '@material-ui/core/Typography';
 
 const theme = createMuiTheme({
   palette: {
@@ -15,8 +16,7 @@ const theme = createMuiTheme({
   typography: { useNextVariants: true },
 });
 
-function OnePage(props) {
-  const { classes } = props;
+function OnePage() {
 
   return (
     <MuiThemeProvider theme={theme}>
@@ -58,11 +58,10 @@ function OnePage(props) {
 
               <div className='Column'>
 
-                <span>Veber Ehitus OÜ</span>
-                <span>Uus-Kalamaja 5, Tallinn, 10415 Harjumaa</span>
-                <span>Reg. nr. 14460351</span>
-                <span>KMKR: EE102110160</span>
-                <span>SEB Pank: EE851010220278730228</span>
+              <Typography variant="caption" gutterBottom color="secondary">Veber Ehitus OÜ</Typography>
+              <Typography variant="caption" gutterBottom color="secondary">Uus-Kalamaja 5, Tallinn, 10415 Harjumaa</Typography>
+              <Typography variant="caption" gutterBottom color="secondary">Reg. nr. 14460351, KMKR: EE102110160</Typography>
+              <Typography variant="caption" gutterBottom color="secondary">SEB Pank: EE851010220278730228</Typography>
 
               </div>
 
@@ -74,4 +73,5 @@ function OnePage(props) {
     </MuiThemeProvider>
   );
 }
+
 export default (OnePage);
