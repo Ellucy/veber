@@ -93,6 +93,7 @@ break {
 
 .buttonText {
   padding-left: 14px;
+  text-transform: lowercase;
 }
 
 a.Button {

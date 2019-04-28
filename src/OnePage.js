@@ -29,26 +29,26 @@ function OnePage() {
 
           </div>
           <div className="Footer">
-            <div className='ButtonBox'>
+            <div className="ButtonBox">
 
-              <div className='Column'>
+              <div className="Column">
 
-                <Button variant="contained" color="primary" href="tel:+37258504843" className='Button' HorizontalContentAlignment="Left">
+                <Button variant="contained" color="primary" href="tel:+37258504843" className="Button">
                   
-                  <Icon className='leftIcon'inline='true'>call</Icon>
-                  <span className="buttonText" style={{ textTransform: 'lowercase'}}>
+                  <Icon className="leftIcon">call</Icon>
+                  <span className="buttonText">
                     +372 5372 1200
                 </span>
 
                 </Button>
               </div>
 
-              <div className='Column'>
+              <div className="Column">
 
-                <Button variant="contained" color="primary" HorizontalContentAlignment="Left" href="mailto:info@veber.ee" className='Button'>
+                <Button variant="contained" color="primary" href="mailto:info@veber.ee" className="Button">
                   
-                  <Icon className='leftIcon'>email</Icon>
-                  <span className="buttonText" style={{ textTransform: 'lowercase' }}>
+                  <Icon className="leftIcon">email</Icon>
+                  <span className="buttonText">
                     info@veber.ee
                 </span>
                 
@@ -59,7 +59,7 @@ function OnePage() {
 
               <break></break>
 
-              <div className='ColumnText'>
+              <div className="ColumnText">
 
               <Typography variant="caption" gutterBottom color="secondary">Veber Ehitus OÜ</Typography>
               <Typography variant="caption" gutterBottom color="secondary">Uus-Kalamaja 5, Tallinn, 10415 Harjumaa</Typography>
