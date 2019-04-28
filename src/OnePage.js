@@ -35,7 +35,7 @@ function OnePage() {
 
                 <Button variant="contained" color="primary" href="tel:+37258504843" className='Button'>
                   <Icon className='leftIcon'>call</Icon>
-                  <span style={{ textTransform: 'lowercase' }}>
+                  <span className="buttonText" style={{ textTransform: 'lowercase'}}>
                     +372 5372 1200
                 </span>
 
@@ -46,7 +46,7 @@ function OnePage() {
 
                 <Button variant="contained" color="primary" href="mailto:info@veber.ee" className='Button'>
                   <Icon className='leftIcon'>email</Icon>
-                  <span style={{ textTransform: 'lowercase' }}>
+                  <span className="buttonText" style={{ textTransform: 'lowercase' }}>
                     info@veber.ee
                 </span>
 
@@ -56,13 +56,12 @@ function OnePage() {
 
               <break></break>
 
-              <div className='Column'>
+              <div className='ColumnText'>
 
               <Typography variant="caption" gutterBottom color="secondary">Veber Ehitus OÜ</Typography>
               <Typography variant="caption" gutterBottom color="secondary">Uus-Kalamaja 5, Tallinn, 10415 Harjumaa</Typography>
               <Typography variant="caption" gutterBottom color="secondary">Reg. nr. 14460351, KMKR: EE102110160</Typography>
-              <Typography variant="caption" gutterBottom color="secondary">SEB Pank: EE851010220278730228</Typography>
-
+              <Typography variant="caption" gutterBottom color="secondary" className="lastItem">SEB Pank: EE851010220278730228</Typography>
               </div>
 
             </div>

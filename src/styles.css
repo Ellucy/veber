@@ -37,10 +37,10 @@ body {
 
 .Button {
   width: 180px;
-  height: 30px;
   background-color: #e0e0e0;
   border-radius: 16px;
   text-decoration: none;
+  margin: 5px;
 }
 
 .Column {
@@ -48,8 +48,22 @@ body {
   flex-direction: column;
   flex: 1;
   align-items: center;
+  margin: 20px 25px 0px;
+}
+
+@media only screen and (min-width: 768px) {
+  div.Column {
+    margin: 20px 0px 0px;
+  }
+}
+
+.ColumnText {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
   margin-top: 20px;
-  
+  white-space: nowrap;
 }
 
 .Veber-logo {
@@ -65,4 +79,12 @@ break {
   width: 0px; 
   height: 0px; 
   overflow: hidden;
+}
+
+.lastItem {
+  padding-bottom: 20px;
+}
+
+.buttonText {
+  padding-left: 14px;
 }
