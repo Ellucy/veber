@@ -33,9 +33,9 @@ function OnePage() {
 
               <div className='Column'>
 
-                <Button variant="contained" color="primary" href="tel:+37258504843" className='Button'>
+                <Button variant="contained" color="primary" href="tel:+37258504843" className='Button' HorizontalContentAlignment="Left">
                   
-                  <Icon className='leftIcon'>call</Icon>
+                  <Icon className='leftIcon'inline='true'>call</Icon>
                   <span className="buttonText" style={{ textTransform: 'lowercase'}}>
                     +372 5372 1200
                 </span>
@@ -45,7 +45,7 @@ function OnePage() {
 
               <div className='Column'>
 
-                <Button variant="contained" color="primary" href="mailto:info@veber.ee" className='Button'>
+                <Button variant="contained" color="primary" HorizontalContentAlignment="Left" href="mailto:info@veber.ee" className='Button'>
                   
                   <Icon className='leftIcon'>email</Icon>
                   <span className="buttonText" style={{ textTransform: 'lowercase' }}>
