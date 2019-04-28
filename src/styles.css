@@ -82,7 +82,13 @@ break {
 }
 
 .lastItem {
-  padding-bottom: 65px;
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .lastItem {
+    padding-bottom: 65px;
+  }
 }
 
 .buttonText {
