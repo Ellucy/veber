@@ -1,5 +1,5 @@
 {
-  "main.css": "/veber/static/css/main.6bcc3d0d.chunk.css",
+  "main.css": "/veber/static/css/main.15157551.chunk.css",
   "main.js": "/veber/static/js/main.b57220dc.chunk.js",
   "main.js.map": "/veber/static/js/main.b57220dc.chunk.js.map",
   "runtime~main.js": "/veber/static/js/runtime~main.24874522.js",
@@ -8,10 +8,10 @@
   "static/js/2.2ee34f7f.chunk.js": "/veber/static/js/2.2ee34f7f.chunk.js",
   "static/js/2.2ee34f7f.chunk.js.map": "/veber/static/js/2.2ee34f7f.chunk.js.map",
   "index.html": "/veber/index.html",
-  "precache-manifest.5bc51eb75adf1c7892adefa8bfb7f95d.js": "/veber/precache-manifest.5bc51eb75adf1c7892adefa8bfb7f95d.js",
+  "precache-manifest.6ffe9ffb968f3e2a007ac0f3c04328ae.js": "/veber/precache-manifest.6ffe9ffb968f3e2a007ac0f3c04328ae.js",
   "service-worker.js": "/veber/service-worker.js",
   "static/css/2.41cc4a7f.chunk.css.map": "/veber/static/css/2.41cc4a7f.chunk.css.map",
-  "static/css/main.6bcc3d0d.chunk.css.map": "/veber/static/css/main.6bcc3d0d.chunk.css.map",
+  "static/css/main.15157551.chunk.css.map": "/veber/static/css/main.15157551.chunk.css.map",
   "static/media/styles.css": "/veber/static/media/bg-mobile_portrait.98db6a63.jpg",
   "static/media/logo.svg": "/veber/static/media/logo.edfe4a98.svg",
   "static/media/index.css": "/veber/static/media/roboto-latin-900italic.bc833e72.woff"
