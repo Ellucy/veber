@@ -33,12 +33,12 @@ function OnePage() {
 
               <div className="Column">
 
-                <Button variant="contained" color="primary" href="tel:+37258504843" className="Button">
-                  
+                <Button variant="contained" color="primary" href="tel:+37253721200" className="Button">
+
                   <Icon className="leftIcon">call</Icon>
                   <span className="buttonText">
                     +372 5372 1200
-                </span>
+                  </span>
 
                 </Button>
               </div>
@@ -46,12 +46,12 @@ function OnePage() {
               <div className="Column">
 
                 <Button variant="contained" color="primary" href="mailto:info@veber.ee" className="Button">
-                  
+
                   <Icon className="leftIcon">email</Icon>
                   <span className="buttonText">
                     info@veber.ee
-                </span>
-                
+                  </span>
+
 
                 </Button>
 
@@ -61,10 +61,10 @@ function OnePage() {
 
               <div className="ColumnText">
 
-              <Typography variant="caption" gutterBottom color="secondary">Veber Ehitus OÜ</Typography>
-              <Typography variant="caption" gutterBottom color="secondary">Uus-Kalamaja 5, Tallinn, 10415 Harjumaa</Typography>
-              <Typography variant="caption" gutterBottom color="secondary">Reg. nr. 14460351, KMKR: EE102110160</Typography>
-              <Typography variant="caption" gutterBottom color="secondary" className="lastItem">SEB Pank: EE851010220278730228</Typography>
+                <Typography variant="caption" gutterBottom color="secondary">Veber Ehitus OÜ</Typography>
+                <Typography variant="caption" gutterBottom color="secondary">Uus-Kalamaja 5, Tallinn, 10415 Harjumaa</Typography>
+                <Typography variant="caption" gutterBottom color="secondary">Reg. nr. 14460351, KMKR: EE102110160</Typography>
+                <Typography variant="caption" gutterBottom color="secondary" className="lastItem">SEB Pank: EE851010220278730228</Typography>
               </div>
 
             </div>
